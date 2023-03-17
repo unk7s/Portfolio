@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Mon Portfolio - Développeur Web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <header class="container-fluid header">
+        <div class="container">
+            <a class="name" href="#"><i class="fa-solid fa-crown"></i>Amadou Sarr</a><i class="fa-solid fa-crown"></i>
+            <nav>
+                <a href="#projets">Projets<i class="fa-solid fa-laptop-code"></a></i>
+                <a href="#competences">Compétences<i class="fa-solid fa-clipboard-check"></a></i>
+                <a href="#formation">Formation<i class="fa-solid fa-graduation-cap"></a></i>
+                <a href="#contact">Contact<i class="fa-solid fa-address-card"></a></i>
+            </nav>
+        </div>
+    </header>
+    <main>
+      <section id="presentation">
+        <img src="twitterpp.jpg" alt="Ma photo">
+        <h2>Développeur Web<i class="fa-solid fa-code"></h2></i>
+        <p>Je suis un web developper junior passionné par la création de sites web exceptionnels. J'ai travaillé sur plusieurs projets de conception de sites web pour des clients variés. J'ai une solide compréhension des principes de base du design web, ainsi que des compétences techniques dans des outils tels que WordPress, Illustrator, Bootstrap 5 et HTML/CSS. Je suis également passionné par l'apprentissage continu et je suis constamment à la recherche de nouvelles tendances et techniques de design pour améliorer mes compétences et créer des expériences utilisateur exceptionnelles. </p>
+        <ul>
+          <li><i class="fa-brands fa-linkedin"><a href="https://www.linkedin.com/in/amadou-sarr-5a220626a/">LinkedIn</a></i></li>
+          <li><i class="fa-brands fa-github"><a href="https://github.com/unk7s">GitHub</a></i></li>
+          <li><i class="fa-solid fa-envelope"><a href="mailto:amadousarr422@gmail.com">Ma boite mail</a></i></li>
+          <li><i class="fa-solid fa-phone"><a href="tel:+221708684701">+221 70 868 47 01</a></i></li>
+        </ul>
+        <br>
+        <hr>
+        <br>
+      </section>
+      <section id="projets">
+        <h2>Mes Projets<i class="fa-solid fa-laptop-code"></i></h2>
+        <ul>
+          <li>
+            <h3>Luxury Watch</h3>
+            <p>Site vitrine d'une boutique de montres developpé avec Html/Css et Bootstrap</p>
+            <a href="https://unk7s.github.io/luxurywatch.io/" target="_blank">Visiter le site</a>
+            <a href="https://github.com/unk7s/luxurywatch.io" target="_blank">Voir le code source</a>
+          </li>
+          <!-- Ajoutez plus de projets ici -->
+        </ul>
+        <br>
+        <hr>
+        <br>
+      </section>
+      <section id="competences">
+        <h2>Mes Compétences<i class="fa-solid fa-clipboard-check"></i></h2>
+        <ul>
+          <li>Langages de programmation</li>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <!-- Ajoutez plus de langages ici -->
+          </ul>
+          <li>Frameworks et bibliothèques</li>
+          <ul>
+            <li>React</li>
+            <li>Vue</li>
+            <li>Bootstrap</li>
+            <!-- Ajoutez plus de frameworks et bibliothèques ici -->
+          </ul>
+        </ul>
+        <br>
+        <hr>
+        <br>
+      </section>
+      <section id="formation">
+        <h2>Ma Formation<i class="fa-solid fa-graduation-cap"></i></h2>
+        <ul>
+          <li>
+            <h3>Lycée Seydina Issa Rohou Lahi (Ex. LPA)</h3>
+            <p><strong>2021</strong>: Baccalauréat série L2</p>
+          </li>
+          <li>
+            <h3>Ecole Supérieure Multinationale des Télécommunications (ESMT)</h3>
+            <p><strong>2021/2024(en cours)</strong>: Licence en Management et économie numérique (LMeN)
+                <br><strong>2022</strong>: Certification CISCO Networking Essentials
+                <br><strong>2023</strong>: Certification en Analyse de données sur Sphinx Plus²
+            </p>
+          </li>
+          <!-- Ajoutez plus de formations ici -->
+        </ul>
+        <br><hr><br>
+      </section>
+      <section id="contact">
+        <h2>Contactez-moi<i class="fa-solid fa-address-card"></i></h2>
+        <form action="envoyer.php" method="post">
+          <label for="nom">Nom :</label>
+          <input type="text" id="nom" name="nom" required>
+          <label for="email">E-mail :</label>
+          <input type="email" id="email" name="email" required>
+          <label for="message">Message :</label>
+          <textarea id="message" name="message" required></textarea>
+          <button type="submit">Envoyer<i class="fa-solid fa-paper-plane"></i></button></i>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Follow me on:
+        <br><i class="fa-brands fa-instagram"></i><a href="https://www.instagram.com/amee_s">Instagram</a> : @amee_s
+        <br><i class="fa-brands fa-twitter"></i><a href="https://twitter.com/king__vmzo">Twitter</a> : @king__vmzo
+        <br><i class="fa-brands fa-snapchat"></i>Snapchat : @unknwn_s7
+        <br><i class="fa-brands fa-whatsapp"></i><a href="https://wa.me/+221708684701">Whatsapp</a> : +221 70 868 47 01
+      </p>
+      <marquee behavior="alternate" direction=""><p>&copy;Copyright  @ame_s<i class="fa-solid fa-crown"></i> march 2023</p></marquee>
+    </footer>
+  </body>
+</html>

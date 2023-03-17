@@ -1,0 +1,254 @@
+/* Réinitialiser les styles par défaut du navigateur */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Styles de base pour le corps, la police et les couleurs */
+  body {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #03738C;
+    background-color: #f9f9f9;
+  }
+  
+  /* Styles pour l'en-tête */
+  header {
+    background-color: #C9EBF2;
+    color: #fff;
+    padding: 30px 40px;
+    font-family: 'Monserrat Alternates',sans-serif;
+
+  }
+h2,h3{
+    color: #8C034E;
+}  
+.name {
+    margin: 0;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Montserrat Alternates',sans-serif;
+    text-decoration: none;
+    color: #8c034e;
+
+  }
+.name:hover{
+    cursor: pointer;
+    color: #03738C;
+}
+  
+  header p {
+    font-size: 18px;
+    font-family: 'Montserrat Alternates',sans-serif;
+
+  }
+  .container{
+    font-family: 'Montserrat Alternates',sans-serif;
+
+  }
+  nav{
+    float: right;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: 'Montserrat Alternates',sans-serif;
+
+  }
+  nav a{
+    color: #8C034E;
+    text-align: center;
+    margin-top: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+  }
+  nav a:hover{
+    color: #03738C;
+    cursor: grab;
+  }
+  /* Styles pour les sections principales */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+i a{
+    font-family: 'Montserrat Alternates',sans-serif;
+    margin-left: 5px;
+    text-decoration: none;
+    color: #03738C;
+    font-weight: bold;
+    
+}
+i a:hover{
+    color: #8C034E;
+}
+i{
+    font-size: 16px;
+    font-family: 'Montserrat Alternates',sans-serif;
+    margin-left: 3px;
+    text-decoration: none;
+    color: #8C034E;
+    font-weight: bold;
+}
+li{
+    text-decoration: none;
+}
+  
+  main h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  
+  main p {
+    margin-bottom: 20px;
+  }
+  img{
+    height: 250px;
+    width: 250px;
+  }
+  
+  /* Styles pour la section "Projets" */
+  #projets li {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: none;
+  }
+  hr{
+    width: 25%;
+    height: 5px;
+    color: #8c034e;
+    background-color: #8C034E;
+    font-weight: bolder;
+    font-size: 30px;
+    position: relative;
+    left: 25%;
+  }
+  
+  #projets li:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+  
+  #projets h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  
+  #projets p {
+    margin-bottom: 10px;
+  }
+  
+  #projets a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #8C034E;
+    color: #6CCED9;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 3px;
+  }
+  
+  /* Styles pour la section "Formation" */
+  #formation li {
+    margin-bottom: 10px;
+  }
+  
+  #formation h3 {
+    margin-bottom: 5px;
+    font-size: 20px;
+  }
+  
+  #formation p {
+    margin-bottom: 5px;
+    font-style: italic;
+  }
+  
+  /* Styles pour la section "Contact" */
+  #contact {
+    margin-top: 20px;
+  }
+  
+  #contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    font-weight: bold;
+    color: #8C034E;
+    background-color: #6CCED9;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  #contact label {
+    margin-bottom: 5px;
+  }
+  
+  #contact input,
+  #contact textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  #contact button {
+    padding: 10px;
+    background-color: #8c034e;
+    color: #6CCED9;
+    font-family: 'Montserrat Alternates',sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  button i{
+    color: #6CCED9;
+  }
+  #contact button:hover{
+    color: #8C034E;
+    background-color: #03738C;
+  }
+  button i:hover{
+    color: #8C034E;
+  }
+  /* Styles pour le pied de page */
+  footer {
+    background-color: #6CCED9;
+    color: #8C034E;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+  p a{
+    text-decoration: none;
+    color: #8C034E;
+  }
+  p a:hover{
+    color: #03738C;
+  }
+  /* Color Theme Swatches in Hex */
+.Illustration-1-hex { color: #8C034E; }
+.Illustration-2-hex { color: #D943C0; }
+.Illustration-3-hex { color: #03738C; }
+.Illustration-4-hex { color: #C9EBF2; }
+.Illustration-5-hex { color: #6CCED9; }
+
+/* Color Theme Swatches in RGBA */
+.Illustration-1-rgba { color: rgba(140, 2, 78, 1); }
+.Illustration-2-rgba { color: rgba(216, 67, 191, 1); }
+.Illustration-3-rgba { color: rgba(2, 115, 140, 1); }
+.Illustration-4-rgba { color: rgba(201, 234, 242, 1); }
+.Illustration-5-rgba { color: rgba(108, 205, 216, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Illustration-1-hsla { color: hsla(326, 96, 28, 1); }
+.Illustration-2-hsla { color: hsla(309, 66, 55, 1); }
+.Illustration-3-hsla { color: hsla(191, 96, 28, 1); }
+.Illustration-4-hsla { color: hsla(191, 61, 86, 1); }
+.Illustration-5-hsla { color: hsla(185, 58, 63, 1); }
