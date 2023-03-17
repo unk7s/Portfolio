@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Mon Portfolio - Développeur Web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Mon Nom</h1>
+      <nav>
+        <ul>
+          <li><a href="#projets">Projets</a></li>
+          <li><a href="#competences">Compétences</a></li>
+          <li><a href="#experience">Expérience</a></li>
+          <li><a href="#formation">Formation</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="presentation">
+        <img src="mon-image.jpg" alt="Ma photo">
+        <h2>Développeur Web</h2>
+        <p>Breve description de moi et de mes compétences.</p>
+        <ul>
+          <li><a href="lien-vers-mon-profil-linkedin">LinkedIn</a></li>
+          <li><a href="lien-vers-mon-profil-github">GitHub</a></li>
+        </ul>
+      </section>
+      <section id="projets">
+        <h2>Mes Projets</h2>
+        <ul>
+          <li>
+            <h3>Nom du projet 1</h3>
+            <p>Description du projet 1</p>
+            <a href="lien-vers-le-site-web" target="_blank">Visiter le site</a>
+            <a href="lien-vers-le-code-source-sur-github" target="_blank">Voir le code source</a>
+          </li>
+          <li>
+            <h3>Nom du projet 2</h3>
+            <p>Description du projet 2</p>
+            <a href="lien-vers-le-site-web" target="_blank">Visiter le site</a>
+            <a href="lien-vers-le-code-source-sur-github" target="_blank">Voir le code source</a>
+          </li>
+          <!-- Ajoutez plus de projets ici -->
+        </ul>
+      </section>
+      <section id="competences">
+        <h2>Mes Compétences</h2>
+        <ul>
+          <li>Langages de programmation</li>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <!-- Ajoutez plus de langages ici -->
+          </ul>
+          <li>Frameworks et bibliothèques</li>
+          <ul>
+            <li>React</li>
+            <li>Vue</li>
+            <li>Bootstrap</li>
+            <!-- Ajoutez plus de frameworks et bibliothèques ici -->
+          </ul>
+        </ul>
+      </section>
+      <section id="experience">
+        <h2>Mon Expérience</h2>
+        <ul>
+          <li>
+            <h3>Poste 1</h3>
+            <p>Description du poste 1</p>
+          </li>
+          <li>
+            <h3>Poste 2</h3>
+            <p>Description du poste 2</p>
+          </li
+          <!-- Ajoutez plus de postes ici -->
+        </ul>
+      </section>
+      <section id="formation">
+        <h2>Ma Formation</h2>
+        <ul>
+          <li>
+            <h3>Nom de l'école ou de l'université 1</h3>
+            <p>Diplôme obtenu et année d'obtention</p>
+          </li>
+          <li>
+            <h3>Nom de l'école ou de l'université 2</h3>
+            <p>Diplôme obtenu et année d'obtention</p>
+          </li>
+          <!-- Ajoutez plus de formations ici -->
+        </ul>
+      </section>
+      <section id="contact">
+        <h2>Contactez-moi</h2>
+        <form action="envoyer.php" method="post">
+          <label for="nom">Nom :</label>
+          <input type="text" id="nom" name="nom" required>
+          <label for="email">E-mail :</label>
+          <input type="email" id="email" name="email" required>
+          <label for="message">Message :</label>
+          <textarea id="message" name="message" required></textarea>
+          <button type="submit">Envoyer</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright &copy; Mon Nom</p>
+    </footer>
+  </body>
+</html>
